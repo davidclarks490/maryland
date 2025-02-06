@@ -22,8 +22,8 @@
     <main>
         <section>
             <h2>Welcome to the Maryland Case Search Blog</h2>
-            <p>The Maryland judiciary Case­ Search is a web resource­ from the <a href="https://marylandcasesearch.us/">Maryland Case search Judiciary</a>, the formal group in charge of <br> Maryland’s court syste­m. Established in 2002, this tool lets people­ tap into a vast collection of public court papers. 
-               </br>The­se records span all court leve­ls in Maryland, from district to circuit to appeals courts.</p>
+            <p>The Maryland judiciary CaseÂ­ Search is a web resourceÂ­ from the <a href="https://marylandcasesearch.us/">Maryland Case search Judiciary</a>, the formal group in charge of <br> Marylandâ€™s court systeÂ­m. Established in 2002, this tool lets peopleÂ­ tap into a vast collection of public court papers. 
+               </br>TheÂ­se records span all court leveÂ­ls in Maryland, from district to circuit to appeals courts.</p>
             <a href="blog.html">Read Our Blog</a>
         </section>
 
@@ -42,50 +42,3 @@
     <script src="script.js"></script>
 </body>
 </html>
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    line-height: 1.6;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
-
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
-}
-
-main {
-    padding: 20px;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
-function openCaseSearch() {
-    // Replace this with your case search tool functionality
-    alert("Redirecting to Maryland Case Search Tool...");
-    // window.location.href = "https://your-case-search-tool.com";
-}
