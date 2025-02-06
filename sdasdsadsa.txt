@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maryland Case Search Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Maryland Case Search Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to the Maryland Case Search Blog</h2>
+            <p>The Maryland judiciary Case­ Search is a web resource­ from the <a href="https://marylandcasesearch.us/">Maryland Case search Judiciary</a>, the formal group in charge of <br> Maryland’s court syste­m. Established in 2002, this tool lets people­ tap into a vast collection of public court papers. 
+               </br>The­se records span all court leve­ls in Maryland, from district to circuit to appeals courts.</p>
+            <a href="blog.html">Read Our Blog</a>
+        </section>
+
+        <section>
+            <h2>Search Cases</h2>
+            <p>Use our Maryland case search tool to find case information.</p>
+            <!-- Add your case search tool or link here -->
+            <button onclick="openCaseSearch()">Search Cases</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Maryland Case Search Blog</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+function openCaseSearch() {
+    // Replace this with your case search tool functionality
+    alert("Redirecting to Maryland Case Search Tool...");
+    // window.location.href = "https://your-case-search-tool.com";
+}
